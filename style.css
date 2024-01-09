@@ -2,26 +2,8 @@ body {
     margin: 0px;
 }
 
-h1 {
-    /* color:rgb(14, 144, 138); */
-    color: #14908a;
-    /*  Decimal 0-9 */
-    /* Binary 0-1 */
-    /* hexadecimal 0 - 9, A,B,C,D,E,F */
-    /* background-color: black; */
-}
-
-h3, h2, p {
-    color:skyblue;
-    font-size: 22px;
-}
-
-.title {
-    text-decoration: underline;
-}
-
-h3#title {
-    text-decoration: underline;
+main {
+    margin: 0px 10px;
 }
 
 * {
@@ -37,4 +19,26 @@ nav {
 nav > a {
     /* margin: 3px; */
     padding: 3px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: double underline 3px brown;
+}
+
+p.paragraph {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+p.title {
+    font-size: 18px;
+    font-weight: 700;
+    /* font-family: 'Times New Roman'; */
+    /* font-family: Courier; */
+    /* font-family: Verdana; */
+    text-transform: capitalize;
+    font-family: 'Bungee Spice', verdana;
+    /* letter-spacing: 1px;
+    word-spacing: 4px; */
 }
