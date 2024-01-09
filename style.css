@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 h1 {
     /* color:rgb(14, 144, 138); */
     color: #14908a;
@@ -21,10 +25,16 @@ h3#title {
 }
 
 * {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 nav {
-    border: 5px solid burlywood;
+    border: 2px solid burlywood;
     border-radius: 1px;
+    padding: 10px;
+}
+
+nav > a {
+    /* margin: 3px; */
+    padding: 3px;
 }
