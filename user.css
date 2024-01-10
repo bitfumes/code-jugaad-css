@@ -1,0 +1,35 @@
+.user-image {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.user-view-btn {
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: lightgray;
+    border-style: solid;
+    font-size: 10px;
+    background-color: white;
+}
+
+.user-email {
+    color: gray;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.user-name {
+    font-family: Verdana;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 4px 0px;
+}
+
+.user-view-all {
+    background-color: white;
+    font-size: 10px;
+    border: solid lightgray;
+    border-radius: 3px;
+    width: 100%;
+    padding: 4px 0px;
+}
