@@ -3,7 +3,7 @@ body {
 }
 
 main {
-    margin: 0px 10px;
+    margin: 0px;
 }
 
 * {
@@ -51,7 +51,11 @@ p.title {
 }
 
 .box-container {
-    display: inline-block;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    /* flex-direction: row-reverse; */
 }
 
 /* #box7 {
