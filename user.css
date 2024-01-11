@@ -49,3 +49,18 @@
 .user-name-email {
     margin-left: 12px;
 }
+.scroll-top {
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-color: gray;
+    color: gray;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
