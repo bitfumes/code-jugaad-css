@@ -10,24 +10,30 @@
     margin-top: 10px;
     top: 10px;
     background-color: green;
+    z-index: 3;
 }
 
 .box2 {
-    position: relative;
-    left: 10px;
+    position: absolute;
+    background-color: aqua;
+    left: 20px;
     top: 25px;
+    z-index: 2;
 }
 
 .box3 {
     position: absolute;
     background-color: purple;
     top: 20px;
-    left: 200px;
+    /* left: 200px; */
+    z-index: 0;
 
 }
 
 .box4{
     background-color: red;
-    position: fixed;
-    left: 20px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    z-index: -1;
 }

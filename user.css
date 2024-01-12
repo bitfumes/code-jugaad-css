@@ -64,3 +64,18 @@
     right: 10px;
     cursor: pointer;
 }
+
+.paragraph1 {
+    height: 200px;
+    overflow: scroll;
+}
+
+.online-icon {
+    background-color: green;
+    width: 8px;
+    height: 8px;
+    border-radius: 40px;
+    position: absolute;
+    right: 0px;
+    margin-top: -2px;
+}

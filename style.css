@@ -11,19 +11,26 @@ main {
 }
 
 nav {
-    border: 2px solid burlywood;
-    border-radius: 1px;
+    /* border: 2px solid burlywood; */
+    /* border-radius: 1px; */
     padding: 10px;
+    display: flex;
+    position: sticky;
+    background-color: black;
+    top: 0px;
+    justify-content: space-around;
 }
 
 nav > a {
-    /* margin: 3px; */
+    color: white;
     padding: 3px;
 }
 
 h1 {
     text-align: center;
     text-decoration: double underline 3px brown;
+    z-index: 1;
+    position: relative;
 }
 
 p.paragraph {
