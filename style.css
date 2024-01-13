@@ -35,7 +35,10 @@ h1 {
 
 p.paragraph {
     text-align: justify;
-    text-indent: 50px;
+    /* text-indent: 50px; */
+}
+p.paragraph::first-letter {
+    font-size: 54px;
 }
 
 p.title {
@@ -57,6 +60,19 @@ p.title {
     /* display: inline-block; */
 }
 
+.box:first-child {
+    border-radius: 10px;
+}
+
+.box:nth-child(2) {
+    border-radius: 40px;
+}
+
+.box:hover {
+    background-color: green;
+    color: white;
+}
+
 .box-container {
     height: 200px;
     display: flex;
@@ -68,3 +84,11 @@ p.title {
 /* #box7 {
     display: none;
 } */
+
+.myanchor:visited {
+    color: blue
+}
+
+.myanchor:link {
+    color: purple
+}
