@@ -92,3 +92,21 @@ p.title {
 .myanchor:link {
     color: purple
 }
+
+
+
+@media screen and (min-width: 577px) {
+    nav {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: grid;
+        grid-template-columns: auto;
+        padding-left: 20px;
+    }
+}
