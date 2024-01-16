@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 - Code Jugaad</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="nav">
+        <h2 class="nav-title">Code Jugaad</h2>
+        <div class="nav-content">
+            <div class="nav-left">
+                <span class="material-icons menu-icon">menu</span>
+                <div class="nav-search">
+                    <span class="material-icons">search</span>
+                    <input class="search-box" type="text" placeholder="Search Now" />
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <span class="material-icons">notifications</span>
+                <img class="user-image" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=100&w=50" alt="" />
+                <span class="material-icons">more_horiz</span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <aside class="sidebar">
+            <a class="sidebar-link" href="#">
+                <span class="material-icons">grid_view</span>
+                <p>Dashboard</p>
+            </a>
+            <a class="sidebar-link" href="#">
+                <span class="material-icons">settings</span>
+                <p>Widgets</p>
+            </a>
+            <a class="sidebar-link" href="#">
+                <span class="material-icons">person</span>
+                <p>Users</p>
+            </a>
+        </aside>
+
+        <article class="article"> 
+            <div style="display: flex;">
+                <h1>Hii, Sarthak</h1>
+                <div class="dot"></div>
+            </div>
+            <p>Welcome to Code Jugaad Dashboard</p>
+
+            <section class="card-container">
+                <div class="card info-card">
+                    <p class="title">Today's Booking</p>
+                    <p class="subtitle">10000</p>
+                    <p class="footer">30days</p>
+                </div>
+
+                <div class="card info-card">
+                    <p class="title">Today's Meetings</p>
+                    <p class="subtitle">1</p>
+                    <p class="footer">30days</p>
+                </div>
+
+                <div class="card info-card">
+                    <p class="title">Number of Clients</p>
+                    <p class="subtitle">10000</p>
+                    <p class="footer">30days</p>
+                </div>
+
+                <div class="card info-card">
+                    <p class="title">Total Booking</p>
+                    <p class="subtitle">10000</p>
+                    <p class="footer">30days</p>
+                </div>
+            </section>
+
+            <section class="table-container">
+                <h2 class="table-title">Transactions</h2>
+                <table class="card">
+                    <thead>
+                        <th>No</th>
+                        <th>Order</th>
+                        <th>Details</th>
+                        <th>Status</th>
+                        <th>Amount</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-data">1</td>
+                            <td class="table-data">Paypal</td>
+                            <td class="table-data">sadfds</td>
+                            <td class="table-data display-center">
+                                <p class="chip-success">Success</p>
+                            </td>
+                            <td class="table-data">$1000</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="table-data">2</td>
+                            <td class="table-data">Paypal</td>
+                            <td class="table-data">sadfds</td>
+                            <td class="table-data display-center">
+                                <p class="chip-pending">Pending</p>
+                            </td>
+                            <td class="table-data">$1000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
